@@ -24,7 +24,7 @@ class MyTask(db.Model):
     def __repr__(self) -> str:
         return f"Task {self.id}"
 with app.app_context():
-        db.create_all()
+    db.create_all()
 
 
 # Routes to webpages
